@@ -137,7 +137,7 @@ angular.module("app", ["kendo.directives"]).controller("MyCtrl", function($scope
     rowTemplate: "<tr data-uid='#: uid #'><td colspan='2' style='text-align: center'>" +
       "This is <b>{{dataItem.text}}</b> and has ID={{dataItem.id}}" +
       "</td></tr>"
-  };
+  }; 
 });
 </script>
 ```
